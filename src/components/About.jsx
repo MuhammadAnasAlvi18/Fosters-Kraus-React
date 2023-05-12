@@ -14,7 +14,7 @@ const About = () => {
                             <h5>50 Years</h5>
                             <h6>of Experience</h6>
                         </div>
-                        <img src={about} alt="image" />
+                        <img src={about} alt="image" className='img-fluid'/>
                         <div className="about-section-img-bottom-text">
                             <img src={phone} alt="image" />
                             <div className="about-section-img-bottom-text-div">

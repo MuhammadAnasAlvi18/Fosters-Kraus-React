@@ -918,8 +918,102 @@ a:hover,a:focus{text-decoration: none;color: inherit;}
 @media only screen and (min-width:768px) and (max-width: 991px) {
 }
 @media only screen and (min-width:992px) and (max-width: 1199px) {
+  .header-top,.header-top-main{padding: 0 20px;}
+  .header-top-text-div h6{font-size: 12px;}
+  .header-top-btn a{font-size: 12px;}
+  .header-navigation ul{gap: 40px;}
+  .header-navigation ul li a{font-size: 16px;}
+  .logo img{width: 120px;}
+  .banner-text h3 {font-size: 18px;}
+  .banner-text h2,.about-section-text h3,.contact-section-text h3{font-size: 40px;line-height: 40px;}
+  .banner-text h2{padding: 10px 0;}
+  .banner-bottom-div-text h4{text-align: center;}
+  .banner-text p{font-size: 15px;}
+  .banner-text a {padding: 16px 30px;margin-top: 20px;font-size: 16px;}
+  .banner-section{padding: 0 40px 120px;}
+  .carousel-indicators{right: -75px;}
+  .banner-bottom{padding: 0 80px;bottom: -25%;}
+  .banner-bottom-div{padding: 40px 20px;flex-direction: column;}
+  .banner-bottom-div-text p{font-size: 15px;text-align: center;}
+  .about-section{padding: 285px 20px 180px;}
+  .about-section-text h6,.about-section-text h5{font-size: 16px;}
+  .about-section-text p{font-size: 15px;}
+  .about-section-text a{font-size: 16px;padding: 15px 50px;margin-top: 20px;}
+  .about-section-img-top-text{left: -20px;}
+  .about-section-img-top-text h5{font-size: 20px;}
+  .about-section-img-top-text h6,.about-section-img-bottom-text-div h6{font-size: 15px;}
+  .about-section-img-bottom-text{right: -15px;padding: 25px 0;width: 55%;}
+  .about-section-img-bottom-text-div h5{font-size: 22px;}
+  .testimonial-section{padding: 60px 180px;}
+  .testimonial-main{padding: 60px;}
+  .testimonial-section h5{font-size: 18px;}
+  .testimonial-section h3{font-size: 50px;}
+  .testimonial-carousel-item h4{font-size: 20px;}
+  .testimonial-btn{padding: 60px 0 20px;}
+  .services-section-img img{width: 80%;}
+  .services-section{padding: 60px 20px 0;}
+  .services-section-text h3{font-size: 36px;}
+  .services-section-text p{width: 95%;}
+  .focus-section-overlay{padding: 80px 20px;}
+  .focus-section-text h3{font-size: 40px;line-height: 40px;letter-spacing: -2px;width: 60%;}
+  .focus-section-text a{padding: 15px 50px;font-size: 16px;}
+  .focus-section-text p{width: 80%;}
+  .contact-section{padding: 80px 20px;}
+  .contact-section-text-right h5{font-size: 18px;}
+  .contact-section-text-right h6{font-size: 15px;}
+  .contact-section-text-bottom{gap: 50px;}
+  .contact-section-form{padding: 0 50px 60px;}
+  .contact-section-form h4{font-size: 22px;}
+  .contact-form-div a,.footer-section-div h4{font-size: 16px;}
+  .footer-section{padding: 40px 20px;}
+  .footer-section p{width: 60%;}
+  .footer-bottom-section p{font-size: 14px;}
 }
 @media only screen and (min-width:1260px) and (max-width: 1365px) {
+  .header-top,.header-top-main{padding: 0 40px;}
+  .header-top-text-div h6{font-size: 14px;}
+  .header-top-btn a{font-size: 14px;}
+  .header-navigation ul li a{font-size: 18px;}
+  .logo img{width: 150px;}
+  .banner-text h3 {font-size: 20px;}
+  .banner-text h2,.about-section-text h3,.contact-section-text h3{font-size: 50px;line-height: 45px;}
+  .banner-text p{font-size: 16px;}
+  .banner-text a {padding: 16px 30px;margin-top: 20px;font-size: 16px;}
+  .banner-section{padding: 0 40px 120px;}
+  .carousel-indicators{right: -75px;}
+  .banner-bottom{padding: 0 80px;}
+  .banner-bottom-div{padding: 40px 20px;}
+  .banner-bottom-div-text p{font-size: 15px;}
+  .about-section{padding: 245px 40px 180px;}
+  .about-section-text h6,.about-section-text h5{font-size: 16px;}
+  .about-section-text p{font-size: 15px;}
+  .about-section-text a{font-size: 18px;padding: 15px 50px;}
+  .about-section-img-top-text{left: -30px;}
+  .about-section-img-top-text h5{font-size: 20px;}
+  .about-section-img-top-text h6,.about-section-img-bottom-text-div h6{font-size: 16px;}
+  .about-section-img-bottom-text{right: -20px;padding: 25px 0;}
+  .about-section-img-bottom-text-div h5{font-size: 22px;}
+  .testimonial-section{padding: 60px 180px;}
+  .testimonial-main{padding: 60px;}
+  .testimonial-section h5{font-size: 18px;}
+  .testimonial-section h3{font-size: 50px;}
+  .testimonial-carousel-item h4{font-size: 20px;}
+  .testimonial-btn{padding: 60px 0 20px;}
+  .services-section-img img{width: 70%;}
+  .services-section{padding: 60px 40px 0;}
+  .services-section-text h3{font-size: 48px;}
+  .focus-section-overlay{padding: 80px 40px;}
+  .focus-section-text h3{font-size: 45px;line-height: 45px;letter-spacing: -2px;}
+  .focus-section-text a{padding: 15px 60px;font-size: 18px;}
+  .contact-section{padding: 80px 40px;}
+  .contact-section-text-right h5{font-size: 20px;}
+  .contact-section-text-bottom{gap: 50px;}
+  .contact-section-form{padding: 0 80px 60px;}
+  .contact-section-form h4{font-size: 28px;}
+  .contact-form-div a,.footer-section-div h4{font-size: 18px;}
+  .footer-section{padding: 40px 40px;}
+  .footer-section p{width: 60%;}
+  .footer-bottom-section p{font-size: 14px;}
 }
 @media only screen and (min-width:1366px) and (max-width: 1439px) {
   .header-top,.header-top-main{padding: 0 40px;}
@@ -966,11 +1060,98 @@ a:hover,a:focus{text-decoration: none;color: inherit;}
   .footer-section{padding: 40px 40px;}
   .footer-section p{width: 60%;}
   .footer-bottom-section p{font-size: 14px;}
-
 }
 @media only screen and (min-width: 1440px) and (max-width: 1599px){
+  .header-top,.header-top-main{padding: 0 40px;}
+  .header-top-text-div h6{font-size: 14px;}
+  .header-top-btn a{font-size: 14px;}
+  .header-navigation ul li a{font-size: 18px;}
+  .logo img{width: 150px;}
+  .banner-text h3 {font-size: 20px;}
+  .banner-text h2,.about-section-text h3,.contact-section-text h3{font-size: 50px;line-height: 45px;}
+  .banner-text p{font-size: 16px;}
+  .banner-text a {padding: 16px 30px;margin-top: 20px;font-size: 16px;}
+  .banner-section{padding: 0 40px 120px;}
+  .carousel-indicators{right: -75px;}
+  .banner-bottom{padding: 0 80px;}
+  .banner-bottom-div{padding: 40px 20px;}
+  .banner-bottom-div-text p{font-size: 15px;}
+  .about-section{padding: 245px 40px 180px;}
+  .about-section-text h6,.about-section-text h5{font-size: 16px;}
+  .about-section-text p{font-size: 15px;}
+  .about-section-text a{font-size: 18px;padding: 15px 50px;}
+  .about-section-img-top-text{left: -30px;}
+  .about-section-img-top-text h5{font-size: 20px;}
+  .about-section-img-top-text h6,.about-section-img-bottom-text-div h6{font-size: 16px;}
+  .about-section-img-bottom-text{right: -20px;padding: 25px 0;}
+  .about-section-img-bottom-text-div h5{font-size: 22px;}
+  .testimonial-section{padding: 60px 180px;}
+  .testimonial-main{padding: 60px;}
+  .testimonial-section h5{font-size: 18px;}
+  .testimonial-section h3{font-size: 50px;}
+  .testimonial-carousel-item h4{font-size: 20px;}
+  .testimonial-btn{padding: 60px 0 20px;}
+  .services-section-img img{width: 70%;}
+  .services-section{padding: 60px 40px 0;}
+  .services-section-text h3{font-size: 48px;}
+  .focus-section-overlay{padding: 80px 40px;}
+  .focus-section-text h3{font-size: 45px;line-height: 45px;letter-spacing: -2px;}
+  .focus-section-text a{padding: 15px 60px;font-size: 18px;}
+  .contact-section{padding: 80px 40px;}
+  .contact-section-text-right h5{font-size: 20px;}
+  .contact-section-text-bottom{gap: 50px;}
+  .contact-section-form{padding: 0 80px 60px;}
+  .contact-section-form h4{font-size: 28px;}
+  .contact-form-div a,.footer-section-div h4{font-size: 18px;}
+  .footer-section{padding: 40px 40px;}
+  .footer-section p{width: 60%;}
+  .footer-bottom-section p{font-size: 14px;}
 }
 @media only screen and (min-width: 1600px) and (max-width: 1900px) {
+  .header-top,.header-top-main{padding: 0 80px;}
+  .header-top-text-div h6{font-size: 14px;}
+  .header-top-btn a{font-size: 14px;}
+  .header-navigation ul li a{font-size: 18px;}
+  .logo img{width: 150px;}
+  .banner-text h3 {font-size: 20px;}
+  .banner-text h2,.about-section-text h3,.contact-section-text h3{font-size: 50px;line-height: 45px;}
+  .banner-text p{font-size: 16px;}
+  .banner-text a {padding: 16px 30px;margin-top: 20px;font-size: 16px;}
+  .banner-section{padding: 0 80px 50px;}
+  .carousel-indicators{right: -75px;}
+  .banner-bottom{padding: 0 80px;}
+  .banner-bottom-div{padding: 40px 20px;}
+  .banner-bottom-div-text p{font-size: 15px;}
+  .about-section{padding: 245px 80px 180px;}
+  .about-section-text h6,.about-section-text h5{font-size: 16px;}
+  .about-section-text p{font-size: 15px;}
+  .about-section-text a{font-size: 18px;padding: 15px 50px;}
+  .about-section-img-top-text{left: -30px;}
+  .about-section-img-top-text h5{font-size: 20px;}
+  .about-section-img-top-text h6,.about-section-img-bottom-text-div h6{font-size: 16px;}
+  .about-section-img-bottom-text{right: -20px;padding: 25px 0;}
+  .about-section-img-bottom-text-div h5{font-size: 22px;}
+  .testimonial-section{padding: 60px 180px;}
+  .testimonial-main{padding: 60px;}
+  .testimonial-section h5{font-size: 18px;}
+  .testimonial-section h3{font-size: 50px;}
+  .testimonial-carousel-item h4{font-size: 20px;}
+  .testimonial-btn{padding: 60px 0 20px;}
+  .services-section-img img{width: 70%;}
+  .services-section{padding: 60px 80px 0;}
+  .services-section-text h3{font-size: 48px;}
+  .focus-section-overlay{padding: 80px 80px;}
+  .focus-section-text h3{font-size: 45px;line-height: 45px;letter-spacing: -2px;}
+  .focus-section-text a{padding: 15px 60px;font-size: 18px;}
+  .contact-section{padding: 80px 80px;}
+  .contact-section-text-right h5{font-size: 20px;}
+  .contact-section-text-bottom{gap: 50px;}
+  .contact-section-form{padding: 0 80px 60px;}
+  .contact-section-form h4{font-size: 28px;}
+  .contact-form-div a,.footer-section-div h4{font-size: 18px;}
+  .footer-section{padding: 40px 80px;}
+  .footer-section p{width: 60%;}
+  .footer-bottom-section p{font-size: 14px;}
 }
 @media only screen and (min-width: 1680px) and (max-width: 1919px){
 }
