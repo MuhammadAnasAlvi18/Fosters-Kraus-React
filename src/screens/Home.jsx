@@ -6,6 +6,8 @@ import Testimonial from '../components/Testimonial'
 import Services from '../components/Services'
 import Focus from '../components/Focus'
 import Contact from '../components/Contact'
+import Footer from '../components/Footer'
+import Bubbles from '../components/Bubbles'
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
     <Services />
     <Focus />
     <Contact />
+    <Footer />
+    <Bubbles />
     </>
   )
 }   
