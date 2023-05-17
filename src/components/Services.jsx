@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <section className="services-section">
       <div className="container-fluid">
-        <div className="row align-items-md-center">
+        <div className="row align-items-md-center row-reverse">
           <div className="col-md-6">
             <div className="services-section-img">
               <img src={services} alt="image" className="img-fluid" />
